@@ -1,0 +1,15 @@
+Network Configuration
+
+Use Security Groups to restrict access:
+
+Frontend EC2:
+
+Open port 80 for public access (0.0.0.0/0 for IPv4, and ::/0 for IPv6).
+
+Backend EC2:
+
+Open port 3000, accessible only from the Frontend EC2 security group.
+
+RDS: 
+
+Open port 3306, accessible only from the Backend EC2 security group.
