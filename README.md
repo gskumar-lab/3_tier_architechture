@@ -36,4 +36,4 @@ This project implements a highly available and scalable three-tier architecture 
 ## Deployment
 1. Clone the repository:
    ```bash
-   git clone <https://github.com/your-username/three-tier-architecture-aws.git>
+   git clone <https://github.com/gskumar-lab/3_tier_architechture.git>
